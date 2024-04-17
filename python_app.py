@@ -22,8 +22,16 @@ while True:
   print("D. Division")
   print("E. Exit")
 
+  choice_list = ["a", "A", "b", "B", "c", "C", "d", "D", "e", "E"]
+  
   choice = input("input your choice: ")
 
+  if (choice not in choice_list)
+  {
+    choice = input("Invalid choice, please enter A, B, C, D, or E:")
+  }
+  else
+{
   if choice == "a" or choice == "A":
     print("Addition")
     a = int(input("input first number: "))
@@ -46,4 +54,6 @@ while True:
     div(a, b)
   elif choice == "e" or choice == "E":
     print("Program ended")
-    quit()
+    quit()  
+}
+
